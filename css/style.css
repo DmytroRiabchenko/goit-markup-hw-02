@@ -1,9 +1,16 @@
 body {
     color: color: #757575;;
     background-color: #F5F5F5;
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
-:root{
+ul {
+    list-style: none;
+}
+
+:root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
@@ -28,8 +35,15 @@ body {
 }
 
 .logo {
-   color: #000; 
+   color: #000;
+   font-family: Raleway, cursive;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; 
 }
+
+
 
 .logo-style {
 
@@ -45,8 +59,17 @@ body {
     color: #2196F3;
 }
 
+.hero {
+    background: #2F303A;;
+}
+
 .site-nav .list {
     cursor: pointer;
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -54,7 +77,14 @@ body {
 }
 
 .auth-nav a {
-    color: #757575;;
+    color: #757575;
+
+    
+ 
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 }
 
 .auth-nav :hover,
@@ -65,31 +95,112 @@ body {
 
 .hero-title {
     color:#FFFFFF;
-    background: #2F303A
+    background: #2F303A;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 
 .section-title {
     color: #212121;
+
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+}
+
+.subtitle {
+
+
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
 }
 
 .feature-list .title {
     color: #212121;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .text {
     color: #757575;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .button {
     color: #FFFFFF;
     background: #2196F3;
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+
+        
+
+    
 }
 
 .page-footer {
-    color: #FFFFFF;
+    background: #2F303A;
 }
 
-.adress-list {
+.footer-socials {
+    color: rgba(255, 255, 255, 0.6);
+    background: #2F303A;
+
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
     
+        letter-spacing: 0.03em;
+}
+
+.footer-adress {
+    color: #FFFFFF;
+    background: #2F303A; 
+
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+}
+
+/* Кнопки портфолио*/
+
+.button-items {
+    color: #212121;
+    background: #F5F4FA;
+}
+
+.button-port :hover,
+.button-port :focus {
+    color: #FFFFFF;
+    background: #2196F3;
 }

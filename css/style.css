@@ -1,5 +1,5 @@
 body {
-    color: color: #757575;;
+    color: #757575;;
     background-color: #F5F5F5;
 
     font-family: Roboto, sans-serif;
@@ -151,6 +151,7 @@ ul {
 .button {
     color: #FFFFFF;
     background: #2196F3;
+    cursor: pointer;
 
         font-weight: 700;
         font-size: 16px;
@@ -187,11 +188,16 @@ ul {
     background: #2F303A; 
 
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1,71;
-        text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    text-decoration: none;
+}
+
+.adress-list :hover,
+.adress-list :focus {
+    color: #2196F3;
 }
 
 /* Кнопки портфолио*/
@@ -199,10 +205,39 @@ ul {
 .button-items {
     color: #212121;
     background: #F5F4FA;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
 }
 
 .button-port :hover,
 .button-port :focus {
     color: #FFFFFF;
     background: #2196F3;
+    cursor: pointer;
+}
+
+.subject {
+    color: #212121;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.text-p {
+    color: #757575;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,88;
 }

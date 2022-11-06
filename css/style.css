@@ -28,7 +28,12 @@ body {
 }
 
 .logo {
-   color: #000
+   color: #000; 
+}
+
+.logo-style {
+
+ color: #2196F3
 }
 
 .site-nav a {
@@ -40,7 +45,11 @@ body {
     color: #2196F3;
 }
 
-site-nav .link.current {
+.site-nav .list {
+    cursor: pointer;
+}
+
+.site-nav .link.current {
     color: var(--accent-color)
 }
 
@@ -74,4 +83,8 @@ site-nav .link.current {
 .button {
     color: #FFFFFF;
     background: #2196F3;
+}
+
+.page-footer {
+    color: #FFFFFF;
 }

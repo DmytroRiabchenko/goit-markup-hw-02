@@ -1,6 +1,6 @@
 body {
     color: #757575;;
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
@@ -11,10 +11,12 @@ ul {
 }
 
 :root {
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
-    --primary-bg-color: #F5F5F5;
+    --light-gray-color: #757575;
+    --black-color: #212121;
+    --blue-color: #2196F3;
+    --white-color: #F5F5F5;
+    --light-black:#2F303A;
+    --team-color:#F5F4FA;
 }
 /* вторичный основоного текста #212121 */
 
@@ -35,8 +37,8 @@ ul {
 }
 
 .logo {
-   color: #000;
-   font-family: Raleway, cursive;
+   color: var(--black-color);
+   font-family: Raleway;
 
     font-weight: 700;
     font-size: 26px;
@@ -48,11 +50,11 @@ ul {
 
 .logo-style {
 
- color: #2196F3
+ color: var(--blue-color);
 }
 
 .site-nav a {
-    color: var(--title-text-color);
+    color: var(--black-color);
 
     font-weight: 500;
     font-size: 14px;
@@ -63,11 +65,11 @@ ul {
 
 .site-nav :hover,
 .site-nav :focus {
-    color: #2196F3;
+    color:var(--blue-color);
 }
 
 .hero {
-    background: #2F303A;;
+    background: var(--light-black);
 }
 
 .site-nav .list {
@@ -81,7 +83,7 @@ ul {
 }
 
 .auth-nav a {
-    color: #757575;
+    color: var(--light-gray-color);
 
     
  
@@ -95,13 +97,12 @@ ul {
 
 .auth-nav :hover,
 .auth-nav :focus {
-    color: #2196F3;
+    color: var(--blue-color);
 }
 
 
 .hero-title {
-    color:#FFFFFF;
-    background: #2F303A;
+    color: var(--white-color);
 
     font-weight: 900;
     font-size: 44px;
@@ -114,7 +115,7 @@ ul {
 
 
 .section-title {
-    color: #212121;
+    color: var(--black-color);
 
     font-weight: 700;
         font-size: 36px;
@@ -122,17 +123,18 @@ ul {
         text-align: center;
 }
 
-.subtitle {
-
-
-
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.18;
+.subtitle { 
+    color: var(--black-color);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
 }
 
 .feature-list .title {
-    color: #212121;
+    color: var(--black-color);
 
     font-weight: 700;
     font-size: 14px;
@@ -140,40 +142,50 @@ ul {
     text-transform: uppercase;
 }
 
+.team {
+    background-color: var(--team-color);
+}
+
+.colors {
+    background: #FFFFFF;
+}
+
 .text {
-    color: #757575;
+    color: var(--light-gray-color);
 
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
 
-.button {
-    color: #FFFFFF;
-    background: #2196F3;
+.hero-button {
+    color: var(--black-color);
+    background: var(--team-color);
     cursor: pointer;
+    border-radius: 4px;
 
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-    
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-
-        
-
-    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
 }
 
+
+
+.hero-button :hover,
+.hero-button :focus {
+   background: var(--blue-color);
+}
+
+
 .page-footer {
-    background: #2F303A;
+    background: var(--light-black);
 }
 
 .footer-socials {
     color: rgba(255, 255, 255, 0.6);
-    background: #2F303A;
+    background: var(--light-black);
 
     font-family: 'Roboto';
     font-style: normal;
@@ -184,8 +196,8 @@ ul {
 }
 
 .footer-adress {
-    color: #FFFFFF;
-    background: #2F303A; 
+    color: var(--white-color);
+    background: var(--light-black); 
 
     font-family: 'Roboto';
     font-style: normal;
@@ -197,32 +209,32 @@ ul {
 
 .adress-list :hover,
 .adress-list :focus {
-    color: #2196F3;
+    color: var(--blue-color);
 }
 
 /* Кнопки портфолио*/
 
-.button-items {
-    color: #212121;
-    background: #F5F4FA;
+.filter-button {
+    color: var(--black-color);
+    background: var(--team-color);
+    cursor: pointer;
+    border-radius: 4px;
 
-
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
 }
 
 .button-port :hover,
 .button-port :focus {
-    color: #FFFFFF;
-    background: #2196F3;
-    cursor: pointer;
+    color: var(--white-color);
+    background: var(--blue-color);
 }
 
 .subject {
-    color: #212121;
+    color: var(--black-color);
 
     font-family: 'Roboto';
     font-style: normal;
@@ -233,11 +245,47 @@ ul {
 }
 
 .text-p {
-    color: #757575;
+    color: var(--light-gray-color);
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1,88;
+}
+
+.logo-color {
+    color: var(--white-color);
+    font-family: Raleway;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.portfolio-text {
+    color: var(--light-gray-color);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,88;
+    
+    
+    letter-spacing: 0.03em;
 }

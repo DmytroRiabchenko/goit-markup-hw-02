@@ -158,9 +158,9 @@ ul {
     line-height: 1.71;
 }
 
-.hero-button {
-    color: var(--black-color);
-    background: var(--team-color);
+.btn {
+    color: #FFFFFF;
+    background: var(--blue-color);
     cursor: pointer;
     border-radius: 4px;
 
@@ -169,13 +169,15 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    
+  
 }
 
 
+.btn:hover,
+.btn:focus {
+background: #188CE8;
 
-.hero-button :hover,
-.hero-button :focus {
-   background: var(--blue-color);
 }
 
 

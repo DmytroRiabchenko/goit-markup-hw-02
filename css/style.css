@@ -11,12 +11,13 @@ ul {
 }
 
 :root {
-    --light-gray-color: #757575;
-    --black-color: #212121;
-    --blue-color: #2196F3;
-    --white-color: #F5F5F5;
-    --light-black:#2F303A;
-    --team-color:#F5F4FA;
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-body: #F5F5F5;
+    --footer-backgraund:#2F303A;
+    --backgraund-section:#F5F4FA;
+    --hover-focus-color: #188CE8;
 }
 /* вторичный основоного текста #212121 */
 
@@ -37,7 +38,7 @@ ul {
 }
 
 .logo {
-   color: var(--black-color);
+   color: var(--title-text-color);
    font-family: Raleway;
 
     font-weight: 700;
@@ -50,11 +51,11 @@ ul {
 
 .logo-style {
 
- color: var(--blue-color);
+ color: var(--accent-color);
 }
 
 .site-nav a {
-    color: var(--black-color);
+    color: var(--title-text-color);
 
     font-weight: 500;
     font-size: 14px;
@@ -65,11 +66,11 @@ ul {
 
 .site-nav :hover,
 .site-nav :focus {
-    color:var(--blue-color);
+    color:var(--accent-color);
 }
 
 .hero {
-    background: var(--light-black);
+    background: var(--footer-backgraund);
 }
 
 .site-nav .list {
@@ -83,7 +84,7 @@ ul {
 }
 
 .auth-nav a {
-    color: var(--light-gray-color);
+    color: var(--primary-text-color);
 
     
  
@@ -97,12 +98,12 @@ ul {
 
 .auth-nav :hover,
 .auth-nav :focus {
-    color: var(--blue-color);
+    color: var(--accent-color);
 }
 
 
 .hero-title {
-    color: var(--white-color);
+    color: var(--background-body);
 
     font-weight: 900;
     font-size: 44px;
@@ -115,7 +116,7 @@ ul {
 
 
 .section-title {
-    color: var(--black-color);
+    color: var(--title-text-color);
 
     font-weight: 700;
         font-size: 36px;
@@ -124,7 +125,7 @@ ul {
 }
 
 .subtitle { 
-    color: var(--black-color);
+    color: var(--title-text-color);
     
     font-family: 'Roboto';
     font-style: normal;
@@ -134,7 +135,7 @@ ul {
 }
 
 .feature-list .title {
-    color: var(--black-color);
+    color: var(--title-text-color);
 
     font-weight: 700;
     font-size: 14px;
@@ -143,7 +144,7 @@ ul {
 }
 
 .team {
-    background-color: var(--team-color);
+    background-color: var(--backgraund-section);
 }
 
 .colors {
@@ -151,7 +152,7 @@ ul {
 }
 
 .text {
-    color: var(--light-gray-color);
+    color: var(--primary-text-color);
 
     font-weight: 400;
     font-size: 14px;
@@ -160,7 +161,7 @@ ul {
 
 .btn {
     color: #FFFFFF;
-    background: var(--blue-color);
+    background: var(--accent-color);
     cursor: pointer;
     border-radius: 4px;
 
@@ -176,18 +177,18 @@ ul {
 
 .btn:hover,
 .btn:focus {
-background: #188CE8;
+background: var(--hover-focus-color);
 
 }
 
 
 .page-footer {
-    background: var(--light-black);
+    background: var(--footer-backgraund);
 }
 
 .footer-socials {
     color: rgba(255, 255, 255, 0.6);
-    background: var(--light-black);
+    background: var(--footer-backgraund);
 
     font-family: 'Roboto';
     font-style: normal;
@@ -198,8 +199,8 @@ background: #188CE8;
 }
 
 .footer-adress {
-    color: var(--white-color);
-    background: var(--light-black); 
+    color: var(--background-body);
+    background: var(--footer-backgraund); 
 
     font-family: 'Roboto';
     font-style: normal;
@@ -211,14 +212,14 @@ background: #188CE8;
 
 .adress-list :hover,
 .adress-list :focus {
-    color: var(--blue-color);
+    color: var(--accent-color);
 }
 
 /* Кнопки портфолио*/
 
 .filter-button {
-    color: var(--black-color);
-    background: var(--team-color);
+    color: var(--title-text-color);
+    background: var(--backgraund-section);
     cursor: pointer;
     border-radius: 4px;
 
@@ -231,12 +232,12 @@ background: #188CE8;
 
 .button-port :hover,
 .button-port :focus {
-    color: var(--white-color);
-    background: var(--blue-color);
+    color: var(--background-body);
+    background: var(--accent-color);
 }
 
 .subject {
-    color: var(--black-color);
+    color: var(--title-text-color);
 
     font-family: 'Roboto';
     font-style: normal;
@@ -247,7 +248,7 @@ background: #188CE8;
 }
 
 .text-p {
-    color: var(--light-gray-color);
+    color: var(--primary-text-color);
 
     font-family: 'Roboto';
     font-style: normal;
@@ -257,7 +258,7 @@ background: #188CE8;
 }
 
 .logo-color {
-    color: var(--white-color);
+    color: var(--background-body);
     font-family: Raleway;
 
     font-weight: 700;
@@ -280,7 +281,7 @@ background: #188CE8;
 }
 
 .portfolio-text {
-    color: var(--light-gray-color);
+    color: var(--primary-text-color);
 
     font-family: 'Roboto';
     font-style: normal;

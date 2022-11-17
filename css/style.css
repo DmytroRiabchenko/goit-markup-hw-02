@@ -71,6 +71,7 @@ ul {
 
 .hero {
     background: var(--footer-backgraund);
+    text-align: center;
 }
 
 .site-nav .list {
